@@ -6,4 +6,4 @@ let gastMedio = 10;
 let dis = 1200;
 
 let resul = dis / gastMedio * combustivel;
-console.log(resul);
+console.log(resul.toFixed(0));
