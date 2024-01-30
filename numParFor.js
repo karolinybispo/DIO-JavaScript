@@ -2,13 +2,13 @@
 let num =[23,20,45,23,12,10,2,3974,8390,7381];
 
 for (let i = 0; i < num.length; i++) {
-    let numPar = num[i] % 2;// a cada for um numero individual do array sera calculado e passa p proxima linha
+    let numPar = num[i] % 2;// a cada loop um numero individual do array sera calculado e passa p proxima linha
     if (numPar === 0){ // aqui o que foi calculado entra no if p ver se eh par, se for vai mostrar no console.
-        console.log(num[i]); // nessa linha mostra so os numeros pares, o indice "i" vai no array num e imprimi os numeros pares.
+        console.log(num[i]); // nessa linha mostra somente os numeros pares. O indice "i" vai no array "num" e imprimi os numeros pares.
     }
     //else{
-   //     console.log("impar: ", num[i]);
-   // }
+      //  console.log("impar: ", num[i]);
+    //}
 }
 //EXPLICACAO:
 //dentro do for quero interar sobre cada elemneto do array "num". A variavel "i" eh usada como indice p acessar cada elemento no array. Quando uso num[i] no console, estou aceesando os pares individualmente.
