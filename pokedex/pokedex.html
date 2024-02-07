@@ -4,12 +4,50 @@
     <meta charset="UTF-8"> <!--UTF-8 sgf que aceita acentuacao-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--sgf poder criar um site responsivo-->
     <title>PokeDEX</title>
-<!--link abeixo do css normalize, ele padroniza a estilizacao em todos navegadores -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
+    <!--link abeixo do css normalize, ele padroniza a estilizacao em todos navegadores -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!--Meu css-->
+    <!--aqui em baixo tem um ex que nao preciso colocar /pokedex/css/global.css, pois assim o navegador vai procurar duas vezes a pasta pokedex-->
+    <link rel="stylesheet" href="css/global.css">
+
+    <!-- Fonte roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,300&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <h1>HEY</h1>
+    <section class="content">
+        <h1>Pokemon</h1>
+
+        <ol class="pokemons">
+            <li>
+                bulbassou
+            </li>
+            <li>
+                ivysoir
+            </li>
+            <li>
+                vestsour
+            </li>
+            <li>
+                charmandei
+            </li>
+            <li>
+                charmelisom
+            </li>
+            <li>
+                charlandei
+            </li>
+        </ol>
+    </section>
+
+
+
+
+        <!-- Meu js-->
+        <script src="js/main.js"></script>
 </body>
 </html>
