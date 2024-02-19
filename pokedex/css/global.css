@@ -1,5 +1,7 @@
     * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; 
+    
     }
 
     /* Afastamento */ 
@@ -31,6 +33,7 @@
 }
     ol.pokemons li img{
         max-width: 100;
-        height: 110px;
+        height: 100px;
+        
     }
 
